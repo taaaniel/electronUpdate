@@ -25,7 +25,7 @@
 	"scripts": {
 		"start": "concurrently \"cross-env BROWSER=none react-scripts start\" \"wait-on http://localhost:3000 && electron .\"",
 		"build:prod": "react-scripts build && electron-builder --win",
-		"build:publish": "set GH_TOKEN=<personal_access_token> && react-scripts build && electron-builder --win --publish always"
+		"build:publish": "set GH_TOKEN=<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> && react-scripts build && electron-builder --win --publish always"
 	},
 	"build": {
 		"appId": "com.autoupdater.demo",
