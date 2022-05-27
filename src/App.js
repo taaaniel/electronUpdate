@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Autoupdater Demo v{process.env.REACT_APP_VERSION} dupa</p>
+        <p>Autoupdater Demo v{process.env.REACT_APP_VERSION} dupa~1</p>
       </header>
     </div>
   );
